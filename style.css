@@ -1,0 +1,409 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body{
+    background-color: #212529;
+}
+
+
+button{
+    padding:1rem 1.5rem  1rem 1.5rem;
+    background-color: aquamarine;
+    border: none;
+    font-size: 20px;
+    outline: none;
+    padding: 15px 30px;
+    text-align: center;
+
+    border-radius: 10px;
+}
+
+#logoText{
+    font-size: 1.5rem;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1rem;
+    
+
+}
+
+header{
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color:rgb(0, 0, 0);
+    padding: 1rem 0rem 1rem 0rem;
+    
+    
+    
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 3.5rem;
+    list-style: none;
+   
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+
+}
+
+main{
+    background-color: #212529;
+    color: white;
+    font-family: monospace;
+}
+
+.containerOne{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding: 100px;
+}
+
+.text-content {
+    max-width: 60%;
+}
+
+.containerOne img {
+    max-width: 250px;
+    border-radius: 10%;
+    margin-left: 20px;
+  
+    
+}
+
+#highlight{
+    color:hsl(136, 54%, 43%);
+    font-size: 48px;
+}
+ 
+.containerOne span {
+    color: hsl(136, 54%, 43%);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.containerOne h1 {
+    font-size: 48px;
+    margin: 10px 0;
+}
+
+.containerOne p {
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+.containerOne button {
+    background-color: #32a852;
+    border: none;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    
+}
+
+.containerOne button:hover {
+    background-color: #28a745;
+}
+
+.about-container{
+    text-align: left;
+    margin-top: 10rem;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.about-container h2{
+    font-size: 48px;
+    margin: 10px 0;
+    color:hsl(136, 54%, 43%);
+}
+
+.about-container p{
+    font-size: 20px;
+}
+
+.skillContainer{
+    text-align: center;
+    max-width: 1200px;
+    margin: 100px auto 30px auto;
+}
+
+.skillContainer h2{
+    font-size: 48px;
+    color:hsl(136, 54%, 43%);
+    margin: 10px;
+}
+
+.skillContainer p{
+    font-size: 20px;
+    
+}
+
+.article-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 40px;
+
+}
+
+article {
+    background-color: #070707;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 250px;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+}
+
+article h3 {
+    margin: 10px 0;
+    
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: #32a852;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+button:hover {
+    background-color: #28a745;
+}
+
+
+.project-contaioner{
+    width: 100%;
+    max-width: 1320px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#projectList{
+    display: flex;
+    flex: row;
+    gap: 0.5rem;
+    margin-top: 2rem;
+}
+.projectContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:first baseline;
+    margin-bottom: 20px;
+    gap: 1rem;
+}
+.projectContent h2{
+    font-size: 48px;
+    color:hsl(136, 54%, 43%);
+    margin: 10px 10px;
+}
+.projectContent p{
+    font-size: 20px;
+}
+
+#ClickMore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.porBtn{
+    margin-top: 20px;
+}
+
+#projectList h3{
+    color:hsl(136, 47%, 65%);
+}
+
+#projectList p{
+    font-size: 15px;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.contact-container {
+
+    background-color: #0c0d0c;
+    border-radius: 20px;
+    padding: 40px;
+    width: 80%;
+}
+
+h2 {
+    color: #1cba70;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.icon {
+    font-size: 1.5em;
+    vertical-align: middle;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    
+}
+
+label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1cba70;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #ddd;
+    outline: none;
+    font-size: 1em;
+}
+
+.SubmitBtn{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+   
+}
+button[type="submit"] {
+    width: 10%;
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid #1cba70;
+    border-radius: 5px;
+    color: #1cba70;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #1cba70;
+    color: #000;
+}
+
+footer{
+    
+    background-color:#0d0d0d
+   
+}
+
+
+footer h2{
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    
+}
+
+.navTwo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navTwo ul{
+    display: flex;
+    flex-direction: row;
+    gap: 4.5rem;
+    list-style: none;
+   
+}
+
+.navTwo a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 3.5rem;
+
+}
+.btm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
